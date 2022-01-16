@@ -1,0 +1,123 @@
+body{font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;}
+
+.influencer{display: flex;
+margin-top: 100px;
+margin-left: 80px;
+}
+
+.menu{margin-left: 300px;
+display: flex;
+}
+nav>.menu>li>a{padding: 10px;
+text-decoration: none;
+color: black;
+}
+
+nav li{list-style: none;}
+nav>.menu>li>a:hover{background-color: rgba(177, 31, 145, 0.74);
+color: white;
+}
+
+.lets-start{margin-top:150px;
+margin-left: 40px;
+}
+
+.lets-start-div{display: flex;}
+.camera-image{margin-top: 160px;
+margin-left: 50px;
+}
+
+.order{background-color: rgb(133, 3, 105);
+color: blanchedalmond;
+border-radius: 4px;
+
+}
+
+.Our-Collections{text-align: center;}
+
+hr{margin-bottom: 100px;
+margin-top: 100px;
+}
+
+
+.flex-tripod img{width: 315px;
+    height: 256px;}
+.price{font-size: 24px;}
+
+
+
+span{font-size: 14px;}
+
+.main{width: 300px;
+height: 256px;}
+
+
+
+/*----grid------*/
+
+
+.nine-product{display: grid;
+
+grid-template-columns:repeat(3, 1fr);
+
+
+}
+
+
+
+
+.Feature-product{margin-top: 50px;
+margin-left: 50px;
+background-color: rgb(224, 222, 222);
+padding: 40px;
+border-radius: 10px;
+}
+
+.see{color: rgb(133, 3, 105);
+
+margin-left: 1000PX;
+
+background-color: white;
+
+border: none;
+}
+
+
+.another-final-section{display: flex;}
+
+.final-image{margin-left: 100px;
+margin-right: 300px;
+}
+
+.final{text-align: center;
+margin-bottom: 100px;
+background-color: rgba(2, 1, 73, 0.89);
+color: blanchedalmond;
+
+}
+
+.join{background-color: rgba(139, 11, 179, 0.822);
+
+color: white;
+}
+
+
+
+
+
+/*----------------------Media querrries-------------Mobile-----------------*/
+
+
+@media only screen and (max-width:
+688px)
+{
+
+.nine-product{background-color: rgba(242, 242, 247, 0.795);}
+{grid-template-columns:repeat(1,1fr) ;}
+
+.container{ width: 100%;}
+
+.influencer{flex-direction: column;}
+}
+
